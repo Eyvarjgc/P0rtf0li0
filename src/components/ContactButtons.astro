@@ -1,0 +1,18 @@
+---
+interface Props {
+  title: string;
+  img: string;  
+  href: string;
+}
+
+const {title,img,href} = Astro.props 
+
+import '../../src/styles/global.css'
+
+const display = title || img 
+---
+
+<a class="buttonGradient w-fit p-2 rounded-3xl navFont  " href={href} >
+  {title} 
+  
+</a>
