@@ -5,33 +5,18 @@ import ProjectCards from "../components/ProjectCards.astro";
 
 ---
 
-<h1 class="text text-center text-5xl navFont text-white " id="Projects">My Projects</h1>
-<p class="text text-center text-xl navFont text-cyan-200 mt-4">Hover on the card to know more info</p>
+<h1 class="text text-center text-3xl sm:text-5xl navFont text-white " id="Projects">My Projects</h1>
+<p class="text text-center sm:text-xl navFont text-cyan-200 mt-4">Hover on the card to know more info</p>
 
 <div class="my-20">
 
 
-  <article class="flex gap-8 w-2/3 mx-auto my-20">
-
-
- 
-
-
-    <!-- <ProjectCards title="PlaylistStats" 
-    stack1="Expressjs.png" stack2="/Js.png"  stack3="/Spotify.png"
-    description="In this project, I applied my knowledge of APIs and couldn't be more grateful for the experience. I have a deep love for music, so I used the Spotify API to display the most listened-to songs and create new playlists based on the selected artist. Through this project, my understanding of APIs has greatly improved." 
-    github="https://github.com/Eyvarjgc/PlayListStats" 
-    website="https://playliststats.onrender.com" 
-    img="/playlistStats.png"
-    color="greenyellow"
-    width="326px"
-    height="514px"
-    size="20px"/> -->
+  <article class="flex flex-col sm:flex-row gap-8 w-2/3 mx-auto my-20">
   
   
   </style>
   
-  <section class="product-item rounded-3xl overflow-hidden playlistStatsBG" }>
+  <section class="product-item rounded-3xl overflow-hidden playlistStatsBG w-72 h-96 md:w-[300px] md:h-[500px]" }>
   
   
     <div class="item-content">
@@ -48,7 +33,7 @@ import ProjectCards from "../components/ProjectCards.astro";
   
   
     <div class="item-description">
-      <p class="pt-4 text-justify font-mono text-lg" >In this project, I applied my knowledge of APIs and couldn't be more grateful for the experience. I have a deep love for music, so<span class="text-cyan-300"> I used the Spotify API </span> to display the most listened-to songs and create new playlists based on the selected artist. Through this project, <span class="text-cyan-300">my understanding of APIs has greatly improved.</span></p>
+      <p class="lg:pt-4 text-justify font-mono sm:text-sm   md:text-lg " >In this project, I applied my knowledge of APIs and couldn't be more grateful for the experience. I have a deep love for music, so<span class="text-cyan-300"> I used the Spotify API </span> to display the most listened-to songs and create new playlists based on the selected artist. Through this project, <span class="text-cyan-300">my understanding of APIs has greatly improved.</span></p>
   
       <div class="flex justify-center items-center absolute right-0 left-0 bottom-5 gap-4  ">
   
@@ -69,7 +54,7 @@ import ProjectCards from "../components/ProjectCards.astro";
   </section>
   
   
-  <section class="product-item rounded-3xl overflow-hidden monsterDrinkedLogBG" }>
+  <section class="product-item rounded-3xl overflow-hidden monsterDrinkedLogBG w-72 h-80 md:w-[250px] md:h-[450px]" }>
   
   
     <div class="item-content">
@@ -86,7 +71,7 @@ import ProjectCards from "../components/ProjectCards.astro";
   
   
     <div class="item-description">
-      <p class="pt-4 text-justify font-mono text-lg" >In this project, I practiced my skills using MySQL. It’s a project where <span class="text-cyan-300">I implemented a CRUD system</span>   with MySQL and Express. Throughout this experience, <span class="text-cyan-300">I learned various aspects of MySQL</span>   and how to deploy a database.</p>
+      <p class="lg:pt-4 text-justify font-mono sm:text-sm md:text-lg" >In this project, I practiced my skills using MySQL. It’s a project where <span class="text-cyan-300">I implemented a CRUD system</span>   with MySQL and Express. Throughout this experience, <span class="text-cyan-300">I learned various aspects of MySQL</span>   and how to deploy a database.</p>
   
       <div class="flex justify-center items-center absolute right-0 left-0 bottom-5 gap-4  ">
   

@@ -62,8 +62,6 @@ html{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  width: 300px;
-  height: 500px;
   /* outline: 0.1px solid greenyellow; */
 
 }
@@ -143,8 +141,7 @@ html{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  width: 250px;
-  height: 450px;
+
   /* outline: 0.1px solid orange; */
 
 }
@@ -175,8 +172,6 @@ html{
   align-items: center;
   border-radius: 30px; 
   display: inline-flex;
-  height: 4em;
-  width: 4em;
   justify-content: space-around;
   flex-direction: column;
   position: relative;
@@ -223,7 +218,7 @@ html{
   inset 0 1px 1rem rgba(0, 4, 255, 0.6),
   0 1px 1rem rgba(0, 4, 255, 0.6);
   color: rgba(0, 4, 255, 0.6);
-  background-color: rgba(0, 42, 255, 0.132);
+  background-color: rgba(33, 70, 255, 0.546);
 
   img{
     color: rgba(0, 4, 255, 0.6);

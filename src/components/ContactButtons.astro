@@ -9,10 +9,10 @@ const {title,img,href} = Astro.props
 
 import '../../src/styles/global.css'
 
-const display = title || img 
+const display = title || img
 ---
 
-<a class="buttonGradient w-fit p-2 rounded-3xl navFont  " href={href} >
-  {title} 
-  
+<a class="buttonGradient w-fit p-2 rounded-3xl navFont   sm:text-[13px] md:text-1xl" href={href} >
+  {title}
+
 </a>
