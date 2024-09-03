@@ -5,25 +5,26 @@ import ContactButtons from './ContactButtons.astro'
 
 <article class="">
   <div class="mx-auto my-52 text-white p-8 ">
-    <h1 class="text-3xl sm:text-3xl  md:text-5xl lg:text-7xl text-center">I´m Eyvar Gonzalez </h1>
-    <h1  class="text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center mt-10 navFont fullstack">Fullstack & -----</h1>
-    <p class="text-[10px] lg:text-3xl text-center mt-10 navFont"> Always creating new things and </p>
-    <p class="text-[10px] text-xl lg:text-3xl text-center mb-10 navFont">exploring the old ones</p>
+    <h1 class=" 
+    text-3xl sm:text-3xl  md:text-5xl lg:text-7xl text-center">I´m Eyvar Gonzalez </h1>
+    <h1 id="myName" class="eng text-3xl sm:text-3xl md:text-4xl lg:text-6xl text-center mt-10 navFont fullstack">Fullstack Developer</h1>
+    <p class="text-[10px] lg:text-3xl flex-wrap sm:h-1/6 lg:w-1/2 mx-auto my-0 text-center mt-10 navFont"> Always creating new things and exploring the old ones</p>
   </div>
 
 
-  <h1 class="text text-center text-3xl sm:text-5xl navFont text-white ">About me</h1>
-
+  
   <div class="w-2/3 h-1/6  mx-auto my-10 flex justify-center  gap-8 ">
     
     <section class="w-4/5 sm:w-2/3 text-white ">
-      <h3 class="sm:text-2xl md:text-3xl mb-2 font-mono">Hi there!</h3>
-      <p class=" sm:text-2xl md:text-3xl font-mono ">I´m  a <span class="text-cyan-300">Fullstack Developer</span>  and Graphic Designer </p>
-      <p class="text-[13px] sm:text-[1rem] md:text-xl mt-6 font-mono text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae voluptatum, assumenda provident tempora eveniet quisquam a ab adipisci impedit, dolorem amet consequatur reiciendis? Repellat itaque, veritatis perferendis ullam corporis amet.</p>
+      <h1 class="text text-center text-3xl sm:text-5xl mb-24 navFont text-white " id="aboutMe">About me</h1>
+      <p id="about" class=" sm:text-2xl md:text-3xl font-mono ">Im  a Fullstack Developer  and Graphic Designer </p>
+      <p class="text-[13px] sm:text-[1rem] md:text-xl mt-6 font-mono text-justify">I consider myself a competent web developer, capable of taking on the responsibilities of the tasks assigned to me.
+        I seek to put into practice the knowledge I have acquired during this year and a half of learning in a part-time job as I am currently pursuing a degree in Graphic Design.</p>
+        
         
         <div class="flex md:justify-center md:flex-row sm:flex  h-fit gap-4 my-6">
           
-          <ContactButtons title="see my CV" img='' href="/EyvarGonzalez.pdf"/>
+          <ContactButtons title="CV / Resume" img='' href="/EyvarGonzalez.pdf"/>
 
 
           
@@ -41,10 +42,12 @@ import ContactButtons from './ContactButtons.astro'
 
   </div>
   
-  <a href="#Experience" class="w-fit mx-auto my-0 flex gap-2 animate-bounce text-cyan-300 mt-24">
-    <h1 class="navFont">Experience</h1>
+  <a  href="#Experience" class="w-fit mx-auto my-0 flex gap-2 animate-bounce text-cyan-300 mt-24">
+    <h1 id="Experience" class="navFont">Experience</h1>
     <img src="/lowArrow.png" alt="" class="w-4">
   </a>
 
   </div>
 </article>
+
+<script src="../scripts/Languague.js"></script>

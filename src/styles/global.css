@@ -1,4 +1,79 @@
 
+  /* NAVBAR */
+.navBar{
+  left: 3%;
+  /* transform: translate(-50%,-50%); */
+}
+.toolTip{
+  visibility: hidden;
+  transform: translate(-10px);
+  transition: all .1s ease-in;
+  opacity: 0.1;
+  color: cyan;
+  display: flex;
+  font-size: 16px;
+  writing-mode: horizontal-tb;
+  text-orientation: unset;
+  transform: rotate(180deg);
+}
+
+.navButton:hover  .toolTip{
+  visibility: visible;
+  transform: translate(25%);
+  opacity: 1;
+}
+.changeLanguague div{
+  outline: 3px #f3ec78 solid;
+
+}
+.circle{
+  display: inline-block;
+  outline: 3px white solid;
+  width: 15px;
+  height: 15px;
+  border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .navBar{
+    /* transform: translate(-50%,-50%); */
+  }
+  .toolTip{
+    visibility: hidden;
+    transition: all .2s ease-in;
+    opacity: 0.1;
+    color: cyan;
+    display: flex;
+    font-size: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  .navButton{
+  }
+  .navButton:hover  .toolTip{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 1em;
+  }
+  .changeLanguague div{
+    outline: 3px #f3ec78 solid;
+  
+  }
+  .circle{
+    display: inline-block;
+    outline: 3px white solid;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+  }
+  
+
+
+}
+
+
+
+
 .fullstack{
   
   background-color: #f3ec78;

@@ -2,21 +2,46 @@
 
 ---
 
-<header class="lg:w-1/2 lg:h-16  group
-  my-0 mx-auto bg-slate-900  bg-opacity-70 w-2/3 
-  rounded-b-lg text-white  hover:shadow-md hover:shadow-cyan-300 transition-all ">
+<header class="  fixed bg-opacity-70 my-0 mx-auto w-[90vw] md:w-fit md:h-[100vh] navBar md:top-auto top-5 
+md:left-auto left-0 md:right-auto right-0">
 
-  <nav class="flex justify-center" >
+  <nav class="flex justify-center " >
 
-    <ul class="lg:gap-12  xl:text-2xl transition-all flex flex-row gap-4 flex-wrap md:flex-auto 
-    md:gap-8  lg:flex-nowrap
-    w-fit my-4 mx-auto   navFont font-semibold justify-center text-center ">
+    <ul class="flex flex-row md:flex-col md:gap-8 my-0  items-start  w-full gap-8 
+    justify-center  align-top  ">
+
+      <button class="group navButton items-center group-hover:cursor-pointer changeLanguague 
+      flex flex-col md:flex-row  ">
+        <div class="group-hover:scale-150  transition-all circle"></div>
+        <p class="toolTip  navFont " id="languageNB">Language</p>
+      </button>
+
+
+      <a class="group navButton  flex items-center flex-col md:flex-row" href="#aboutMe">
+        <div class="circle group-hover:scale-150  transition-all"></div>
+        <p class="toolTip  navFont " id="AboutmeNB">About me</p>
+      </a>
+
+      <a class="group navButton  flex items-center flex-col md:flex-row" href="#ExperienceT">
+        <div class="circle group-hover:scale-150  transition-all"></div>
+        <p class="toolTip  navFont " id="ExperienceNB">Experience</p>
+      </a>
+
+      <a class="group navButton  flex items-center flex-col md:flex-row" href="#ProjectsT">
+        <div class="circle group-hover:scale-150  transition-all"></div>
+        <p class="toolTip  navFont " id="ProjectsNB">Projects</p>
+      </a>
+
       
-      <li class="hover:text-cyan-400 hover:shadow-md transition-all ">Home</li>
-      <li class="hover:text-cyan-400">Experience</li>
-      <li class="hover:text-cyan-400">Projects</li>
-      <li class="hover:text-cyan-400">Skills</li>
-      <li class="hover:text-cyan-400">Contact</li>
+      <a class="group navButton  flex items-center flex-col md:flex-row" href="#StackT">
+        <div class="circle group-hover:scale-150  transition-all"></div>
+        <p class="toolTip  navFont " id="StackNB">Stack</p>
+      </a>
+
+      <a class="group navButton  flex items-center flex-col md:flex-row" href="#contactT">
+        <div class="circle group-hover:scale-150  transition-all"></div>
+        <p class="toolTip  navFont " id="ContactNB">Contact</p>
+      </a>
 
     </ul>
 
@@ -27,3 +52,5 @@
   
   
 </header>
+
+<script src="../scripts/Languague.js"></script>

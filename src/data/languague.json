@@ -1,0 +1,45 @@
+{
+  "eng":{
+    "hero":{
+      "name":"I´m Eyvar Gonzalez",
+      "proffesion": "Fullstack Developer",
+      "subtitle": "Always creating new things and exploring the old ones"
+    },
+    "about":{
+      "title":"About me",
+      "Iam": "I´m a Fullstack Developer and Graphic Designer",
+      "description": "I consider myself a competent web developer, capable of taking on the responsibilities of the tasks assigned to me. I seek to put into practice the knowledge I have acquired during this year and a half of learning in a part-time job as I am currently pursuing a degree in Graphic Design."
+    },
+    "experience":{
+      "pcDesc":"My initial experience as a web developer involved learning about SEO and exploring different methods to structure a website's sections. It was also my first time working directly with clients , and I believe the website turned out well considering my skill level at the time."
+    },
+    "projects":{
+      "psDesc":"In this project, I applied my knowledge of APIs and couldn't be more grateful for the experience. I have a deep love for music, so I used the Spotify API to display the most listened-to songs and create new playlists based on the selected artist. Through this project, my understanding of APIs has greatly improved.",
+      "mlDesc":"In this project, I practiced my skills using MySQL. It’s a project where I implemented a CRUD system with MySQL and Express. Throughout this experience, I learned various aspects of MySQL and how to deploy a database."
+    }
+
+    
+  },
+
+  "es":{
+    "hero":{
+      "name":"Soy Eyvar Gonzalez",
+      "proffesion": "Desarrolador Fullstack",
+      "subtitle": "Siempre creando cosas nuevas y explorando las antiguas"
+
+    },
+    "about":{
+      "title":"Sobre mi",
+      "Iam": "Soy un Desarrollador Web Fullstack y Diseñador Grafico",  
+      "description": "Me considero un desarrollador web competente, capaz de tomar responsabilidad de las tareas que se me asignen. Estoy buscando poner en práctica mis conocimientos adquiridos en este año y medio de aprendizaje en un trabajo de medio tiempo, ya que estoy cursando la carrera de diseño gráfico."
+    },
+    "experience":{
+      "pcDesc":"Mi experiencia inicial como desarrollador web involucró aprender sobre SEO y explorar diferentes métodos para estructurar las secciones de un sitio web. También fue la primera vez que trabajé directamente con clientes, y creo que el sitio web resultó bien considerando mi nivel de habilidad en ese momento."
+    },
+    "projects":{
+      "psDesc":"En este proyecto, apliqué mis conocimientos sobre APIs y no podría estar más agradecido por la experiencia. Tengo un profundo amor por la música, así que utilicé la API de Spotify para mostrar las canciones más escuchadas y crear nuevas listas de reproducción basadas en el artista seleccionado. A través de este proyecto, mi comprensión de las APIs ha mejorado enormemente.",
+      "mlDesc":"En este proyecto, practiqué mis habilidades utilizando MySQL. Es un proyecto en el que implementé un sistema CRUD con MySQL y Express. A lo largo de esta experiencia, aprendí varios aspectos de MySQL y cómo desplegar una base de datos."
+    }
+    
+  }
+}
