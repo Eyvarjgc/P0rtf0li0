@@ -8,22 +8,25 @@ import Projects from '../sections/Projects.astro';
 import Skills from '../sections/Skills.astro';
 import Contact from '../sections/Contact.astro';
 import Stack from '../sections/Stack.astro';
+import Noise from '../components/Noise.astro';
 
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-
-		<Navbar />
-
+	
+	<main class="z-[9999999] absolute">
+		
+		<Navbar  />
+		
 		<Hero />
-
+		
 		<Experience />
 		<Projects />
-
-
+		
+		
 		<Stack />
-
+		
 		<Contact />
 	</main>
+	<Noise />
 </Layout>

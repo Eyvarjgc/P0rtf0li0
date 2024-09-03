@@ -1,82 +1,85 @@
-<div class="noise  fixed top-0 bottom-0 right-0 bg-repeat bg-transparent
 
-w-[200%] h-[200vh] inset-0 z-[99999] pointer-events-none opacity-10 "></div>
 
+<div class="bg">
+  <div class="card glass">
+    <div class="shape1"></div>
+    <div class="shape2"></div>
+    <div class="shape3"></div>
+
+  </div>
+</div>
 
 <style>
-  div{
-    /* background-image: url(./background/Noise1.svg); */
-    /* animation: noise 0.2s infinite; */ 
-    
-    
-    background-color: #e5e5f7;
-    background-size: 10px 10px;
-    background-image: repeating-linear-gradient(45deg, #444cf7 0, #444cf7 1px, #e5e5f7 0, #e5e5f7 50%);
-    animation: noise 0.1s infinite;
-    mix-blend-mode: multiply;
-    
-}
-
-
- 
-@media (prefers-reduced-motion:reduce) {
-  div {
-    animation: none;
-    opacity: 0.10;
+  .bg{
+    position: fixed;
+    top: 0 !important;
+    justify-content: center;
+    inset: 0;
+    display: inline-flex;
+    flex-direction: row;
+    opacity: 0.9;
+    z-index: 0;
   }
-}
-
-@-webkit-keyframes noise {
-  to {
-    transform: translate3d(-7rem, 0, 0);
+  .card{
+    position: absolute;
+    right: 0;
+    top: 0 !important;
+    justify-content: center;
+    inset: 0;
+    display: inline-flex;
+    flex-direction: row;
   }
-}
-
-@keyframes noise {
-  0% {
-    transform: translate3d(0, 9rem, 0);
+  .shape1{
+    width: 10em;
+    height: 10em;
+    border-radius: 9999px;
+    position: relative;
+    animation: one 10s infinite;
+    opacity: 0.9;
+    filter: blur(300px);
+    background-color: rgb(255, 0, 200);
   }
-
-  10% {
-    transform: translate3d(-1rem, -4rem, 0);
-  }
-
-  20% {
-    transform: translate3d(-8rem, 2rem, 0);
-  }
-
-  30% {
-    transform: translate3d(9rem, -9rem, 0);
+  .shape2{
+    width: 20em;
+    height: 20em;
+    border-radius: 9999px;
+    position: relative;
+    animation: two 10s infinite;
+    opacity: 0.9;
+    filter: blur(200px);
+    background-color: rgba(0, 255, 255, 0.418);
   }
 
-  40% {
-    transform: translate3d(-2rem, 7rem, 0);
+  .shape3{
+    width: 20em;
+    height: 20em;
+    border-radius: 9999px;
+    position: relative;
+    animation: two 10s infinite;
+    opacity: 0.9;
+    filter: blur(150px);
+    background-color: rgba(126, 84, 0, 0.715);
+  }
+  @keyframes one{
+    0%{left: 0px; top: 0px;}
+    20%{left: 10px; top: 30px;}
+    40%{left: 30px; top: 40px;}
+    70%{left: 450px; top: 20px;}
+    90%{left: -10px; top: -320px;}
+
+  }
+  @keyframes two{
+    0%{left: 0px; top: 0px;}
+    20%{left: -10px; top: 30px;}
+    40%{left: 30px; top: -40px;}
+    70%{left: -450px; top: 20px;}
+    90%{left: 10px; top: 320px;}
+
   }
 
-  50% {
-    transform: translate3d(-9rem, -4rem, 0);
+
+  .glass{
+    /* background-color: #fafafa10; */
+    /* backdrop-filter: blur(0.4rem); */
   }
-
-  60% {
-    transform: translate3d(2rem, 6rem, 0);
-  }
-
-  70% {
-    transform: translate3d(7rem, -8rem, 0);
-  }
-
-  80% {
-    transform: translate3d(-9rem, 1rem, 0);
-  }
-
-  90% {
-    transform: translate3d(6rem, -5rem, 0);
-  }
-
-  to {
-    transform: translate3d(-7rem, 0, 0);
-  }
-}
-
-
 </style>

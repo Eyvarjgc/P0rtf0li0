@@ -1,8 +1,8 @@
 
   /* NAVBAR */
 .navBar{
-  left: 3%;
-  /* transform: translate(-50%,-50%); */
+  left: 5%;
+  transform: translate(-10%, 25%);
 }
 .toolTip{
   visibility: hidden;
@@ -48,8 +48,7 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
   }
-  .navButton{
-  }
+
   .navButton:hover  .toolTip{
     visibility: visible;
     opacity: 1;
